@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
         return -1;
     }
 
-    char key[100] = "39792442264528482B4D6251655468576D5A7134743777217A25432A462D4A40";  // 2560-bit key.
+    char key[100] = "39792442264528482B4D6251655468576D5A7134743777217A25432A462D4A40";  // 256-bit key.
     struct AES_ctx ctx;
     AES_init_ctx(&ctx, key); 
 
